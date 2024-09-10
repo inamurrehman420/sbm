@@ -57,6 +57,16 @@
 @import url("../fonts/rt-icons.ttf");
 @import url("../fonts/fa-brands-400.ttf");
 
+
+
+
+.award-picture{
+  height: 100px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+
+
 body {
   font-family: 'OptimaRegular', sans-serif;
 }
@@ -1079,7 +1089,7 @@ i {
 }
 .section-title-area .section-title {
   position: relative;
-  font-size: 48px;
+  font-size: 36px;
   font-weight: 700;
   margin-bottom: 30px;
   color: #111111;
@@ -11769,11 +11779,15 @@ tr:first-child {
 }
 .rts-gallery-section .filter-button-group .filter-btn:hover {
   color: var(--theme-color);
-  text-decoration: underline;
+  text-decoration: none;
+  border: 1px solid #727272;
+  padding: 10px;
 }
 .rts-gallery-section .filter-button-group .filter-btn.active {
   color: var(--theme-color);
-  text-decoration: underline;
+  text-decoration: none;
+  border: 1px solid #727272;
+  padding: 10px;
 }
 .rts-gallery-section .gallery-item {
   margin-bottom: 30px;
